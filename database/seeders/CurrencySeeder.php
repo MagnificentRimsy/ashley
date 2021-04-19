@@ -39,6 +39,15 @@ class CurrencySeeder extends BaseSeeder
                 'is_default'       => 0,
                 'exchange_rate'    => 23203,
             ],
+            [
+                'title'            => 'GHS',
+                'symbol'           => '₵',
+                'is_prefix_symbol' => false,
+                'order'            => 2,
+                'decimals'         => 0,
+                'is_default'       => 0,
+                'exchange_rate'    => 5.0,
+            ],
         ];
 
         foreach ($currencies as $currency) {
